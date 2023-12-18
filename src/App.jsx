@@ -46,7 +46,6 @@ function App() {
       <br />
       {/* <button onClick={() => consultar('ls_nome')}>Consultar</button>
       <button onClick={() => apagar('ls_nome')}>Remover</button> <br /><br /><br /> */}
-      <span id="conteudo"> </span>
       <span id="conteudo">
         {nomes?.length > 0 &&
           nomes?.map((item, index) => {
